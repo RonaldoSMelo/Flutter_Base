@@ -14,6 +14,7 @@ import 'package:flutter_primeiro_projeto/pages/media_query/media_query_page.dart
 import 'package:flutter_primeiro_projeto/pages/rows_columns/rows_column_page.dart';
 import 'package:flutter_primeiro_projeto/pages/scrolls/listview_page.dart';
 import 'package:flutter_primeiro_projeto/pages/scrolls/singlechildscrollviewpage.dart';
+import 'package:flutter_primeiro_projeto/pages/sensor/sensor_page.dart';
 import 'package:flutter_primeiro_projeto/pages/snackbar/snackbar_page.dart';
 import 'package:flutter_primeiro_projeto/pages/stack/stack_page.dart';
 import 'package:flutter_primeiro_projeto/pages/stack/stack_page2.dart';
@@ -53,6 +54,7 @@ class MyApp extends StatelessWidget {
         '/circle_avatar': (_) => const CircleAvatarPage(),
         '/colors': (_) => const ColorsPage(),
         '/material_banner': (_) => const MaterialBannerPage(),
+        '/sensor': (_) => const StepCounterApp(),
       },
     );
   }
