@@ -71,7 +71,7 @@ class AppRoutes {
       materialBanner: (_) => const PageWrapper(child: MaterialBannerPage()),
       sensor: (_) => const PageWrapper(child: StepCounterApp()),
       stateManagement: (_) => const PageWrapper(child: StateManagementPage()),
-      memoryGame: (_) => const PageWrapper(child: MemoryGamePage()),
+      memoryGame: (_) => const MemoryGamePage(),
       cartDemo: (_) => const PageWrapper(child: CartDemoPage()),
     };
   }
